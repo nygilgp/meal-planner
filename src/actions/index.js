@@ -10,7 +10,7 @@ export function addRecipe({ day, recipe, meal }) {
 	}
 }
 //https://www.linkedin.com/in/nygil/
-export function removeFromCalenday({ day, meal }) {
+export function removeFromCalendar({ day, meal }) {
 	return {
 		type: REMOVE_FROM_CALENDAR,
 		day, 
